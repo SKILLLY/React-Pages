@@ -1,0 +1,11 @@
+body{
+    background-color: #F2FAFF;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+  }
+  
+  
+  img {
+    outline: 1px solid red;
+  }
