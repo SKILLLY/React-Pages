@@ -1,0 +1,68 @@
+body{
+  background-color: #f5f5f5;
+  margin: 0px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+}
+
+
+/* Side nav fixed and the rest of the code to be added */
+
+/* #sidenav{
+  width: 40px;
+  height: 100vh;
+  background-color: #D5EDFF;
+  top: 0px;
+  position: fixed;
+} */
+/* the top navbar for logo and name etc. */
+#topnav{
+  background-color: #FFFFFF;
+  top: 0px;
+  padding-left: 45px;    /* For the navbar */
+  display: inline-block;
+  width: 100%;
+  height: 5.54vh;
+  box-sizing: border-box;
+  color: #707070;
+}
+
+#logo{
+  padding: 12px 0px;
+}
+/* Icons that are to be moved to the right */
+#name, #profile, #notifications, #search{
+  float: right;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-left: 30px;
+}
+/* small profile image */
+#profile-image{
+  height: 30px;
+  border-radius: 50%;
+  padding-bottom: 2vh;
+}
+/* id for the a tag of profile image */
+#profile{
+  padding: 5px 0px;
+  margin-left: 50px;
+}
+/* Name of the user  */
+#name{
+  padding: 8px 0px;
+  font-size: 20px;
+  padding-right: 40px;
+  margin-left: 15px;
+}
+
+#main-body{
+  width: 95%;
+  box-sizing: border-box;
+  padding-left: 7vw;
+  padding-top: 5.54vh;
+  margin-bottom: 30px;
+}
+
+
+
